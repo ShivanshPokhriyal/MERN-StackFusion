@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+</head>
+    <style>
+        
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: bisque;
+            
+        }
+        form {
+            width: fit-content;
+            background-color:beige;
+            padding: 25px;
+            border-style: double;
+            border-radius: 5px;
+            
+        }
+        fieldset{
+
+        }
+        legend{
+
+        }
+        label{
+            display: grid;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea,
+        input[type="date"]
+        {
+            width:100px;
+            padding: 4px;
+            margin-bottom: 3px;
+            box-sizing: border-box;       
+            border-radius: 3px;
+            border-color: bisque;
+
+        }
+        input[type="radio"] { 
+            margin-left: 20px;
+        }
+        input[type="submit"]{
+            padding: 15px;
+            border-radius: 5px;
+            border-color: greenyellow;
+        }
+        
+        
+    </style>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Enter your full name</label>
+            
+            <input 
+                type="text" 
+                name="name"
+            >
+            <label for="email">Enter your Email id</label>
+            <input 
+                type="email"
+                name="email"
+            >
+            <label for="password">Enter your Password</label>
+            <input 
+                type="Password"
+                name="Password"
+            >
+            <label>Re-Enter your Password</label>
+            <input 
+                type="text"
+                name="Passowrd"
+            >
+            <label>Enter your Gender</label>
+            <input 
+                type="radio"
+                name="Gender"
+                value="male"
+            >Male
+            <input 
+                type="radio"
+                name="Gender"
+                value="female"
+            >Female
+            <input 
+                type="radio"
+                name="Gender"
+                value="text"
+            >Custom <input type="text">
+            <label>Enter your Date of Birth</label>
+            <input 
+                type="date" 
+                name="dob"
+            >
+            <label>Enter your adress</label>
+            <textarea 
+                name="address" 
+                id="address">
+            </textarea>
+            <input 
+                type="submit"
+                name="submit"
+            >
+        </fieldset>
+    </form>
+   
+</body>
+</html>
