@@ -1,0 +1,81 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    background-image: url(https://images.unsplash.com/photo-1716186914100-f5ed30f7a894?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    
+}
+header {
+    background-color: darkslategray;
+    color: antiquewhite;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: bisque;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+#about {
+    background-image: url(https://images.unsplash.com/photo-1506677383390-84397709dfa7?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#about img {
+    padding: 20px;
+    max-width: 300px;
+    border-radius:15%;
+}
+#projects{
+    background-image:url(https://images.unsplash.com/photo-1621839673705-6617adf9e890?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+.project{
+    margin-bottom: 20px;
+}
+#contact{
+    background-image: url(https://images.unsplash.com/photo-1577563908411-5077b6dc7624?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+form {
+    display: flex;
+    flex-direction: auto;
+}
+form label {
+    margin-top: 10px;
+}
+form input,textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+form button {
+    padding: 10px;
+    background-color: slategrey;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    margin-top:10px;
+}
+footer{
+    background-color:darkslategray;
+    color: antiquewhite ;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: fit-content;
+}
